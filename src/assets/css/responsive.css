@@ -143,6 +143,11 @@
 }
 
 @media (max-width: 991px) {
+
+    .priceDetailPanel {
+    min-height: auto;
+}
+
     .blackFridayBanner {
         width: 320px;
     }
@@ -216,6 +221,13 @@
         font-weight: 700;
         font-size: 28px;
     }
+    .aboutImg1{margin-bottom: 20px;}
+
+    .howtozigzag .howtostyle p {width: 100%;}
+
+    .faq .card .card-header .faq-title{padding-left: 20px;  padding-right: 20px;}
+
+
 }
 
 /*
@@ -280,6 +292,7 @@
 }
 
 @media (max-width: 768px) {
+    
 
     .filterCol,
     .productCol {
@@ -769,6 +782,15 @@
     .productItemBox {
         width: 50%;
     }
+    .mainProductSlide .carousel-indicators {
+    top: unset !important;
+}
+
+.faq .card .card-body {
+    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 16px;}
+
 }
 
 @media (max-width: 575px) {
@@ -780,9 +802,28 @@
         width: 100%;
         padding-left: 0px;
     }
+
+    .hide_575{display: none;}
+
+    .productInfoRightPanel h3 {
+    font-size: 16px;
+}
+.mobileViewTitle .offTag {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    font-size: 12px;
+}
+
+#content.testimonialSectionPage{flex-wrap: wrap;}
+.testimonialSectionPage #column-right,
+.testimonialSectionPage #column-left {
+    width: 100%;      padding-left: 0px;  padding-right: 0px;}
 }
 
 @media (max-width: 480px) {
+    .aboutBlank {
+    padding: 30px 20px;}
 
     .sectionTitle,
     .sectionTitle02 {
@@ -918,10 +959,9 @@
         padding-right: 0;
     }
 
-    .brandLogos li {
-        width: 50%;
+    .brandLogos li {width: 50%;}
 
-    }
+    .blogRow_ .blogImgCol {height: 230px;}
 
 }
 
@@ -929,6 +969,11 @@
     .catThumbb li {
         width: 50%;
     }
+.cardOptLogo {
+    height: 20px;
+    margin-left: 10px;
+}
+
 
 
 }
