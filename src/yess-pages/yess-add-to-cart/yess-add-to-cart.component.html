@@ -1,0 +1,105 @@
+<section class="productRowBG cartPage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-12 ">
+        <div class="breadcrumbs">
+          <a href="#">Home</a>
+          <a href="#">My Cart</a>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12">
+        <div class=" cartPanel">
+          <div class="cartHead">
+            <h3>My Cart (2)</h3>
+          </div>
+          <div class="cartBody">
+
+            <ng-container *ngFor="let product of products.selectedProducts">
+              <div class="cartRow_">
+                <div class="cartLeftImg">
+                  <img [src]="product.image">
+                </div>
+                <div class="cartProdInfo">
+                  <div class="comLabel">{{product.brandName}}</div>
+                  <h4>{{product.productName}}</h4>
+                  <div class="priceC">₹. {{product.price}} <del>₹. {{product.oldPrice}}</del></div>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>&#8377;.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <ng-container *ngFor="let price of product.offerPrices">
+                          <a class="dropdown-item" href="#">{{price.weight}} : <strong>&#8377;{{price.price}}</strong></a>
+                        </ng-container>
+                      </div>
+                    </div>
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                  </div>
+                </div>
+                <div class="cartDeliver">
+                  <div class="deliveryInfo_">Delivery: <span>Free</span></div>
+                  <div class=""><button type="button" class="removeBtn">REMOVE</button></div>
+                </div>
+              </div>
+            </ng-container>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="priceDetailPanel">
+          <div class="p_priceHead">
+            <h4>Price Details</h4>
+          </div>
+          <div class="p_priceBody">
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td>Price (2 Items)</td>
+                  <td>&#8377;. 600</td>
+                </tr>
+                <tr>
+                  <td>Delivery Fee</td>
+                  <td class="greenText">Free</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="totalAMT_Tr">
+                  <td>Total Amount </td>
+                  <td>&#8377;. 600</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="saveText">You will save &#8377;. 700 on this order</td>
+                </tr>
+              </tfoot>
+            </table>
+            <button type="button" class="btn_1">Place Order</button>
+          </div>
+        </div>
+        <div class="col-12">
+          <p class="note__safe">Safe and Secure Payments.Easy returns. <br>100% Authentic products.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="footerGreen">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-12 lightGreen">
+        <h1>FREE SHIPPING ON </h1>
+        <h5>ORDER OVER Rs.599</h5>
+      </div>
+      <div class="col-lg-6 col-sm-6 col-12 darkGreen">
+        <h1>HAVE A QUESTIONS?</h1>
+        <h5>Toll Free : 1800 121 9377</h5>
+      </div>
+    </div>
+  </div>
+</section>

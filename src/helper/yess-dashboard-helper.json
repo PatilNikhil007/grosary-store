@@ -1,0 +1,253 @@
+{
+  "productDetails":[
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product01.png",
+      "brandName":"Vim",
+      "productTitle":"Dishwash Gel - Lemon",
+      "productPrice": 315,
+      "productOldPrice": 360
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product02.png",
+      "brandName":"GoodDiet",
+      "productTitle":"Ragi Sticks - Achari",
+      "productPrice": 15,
+      "productOldPrice": 30
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product03.png",
+      "brandName":"Dettol",
+      "productTitle":"Hand Wash Liquid",
+      "productPrice": 45,
+      "productOldPrice": 55
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product04.png",
+      "brandName":"Tata Salt",
+      "productTitle":"Iodized",
+      "productPrice": 19.80,
+      "productOldPrice": 28.40
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product01.png",
+      "brandName":"Vim",
+      "productTitle":"Dishwash Gel - Lemon",
+      "productPrice": 315,
+      "productOldPrice": 360
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product02.png",
+      "brandName":"GoodDiet",
+      "productTitle":"Ragi Sticks - Achari",
+      "productPrice": 15,
+      "productOldPrice": 30
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product03.png",
+      "brandName":"Dettol",
+      "productTitle":"Hand Wash Liquid",
+      "productPrice": 45,
+      "productOldPrice": 55
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product04.png",
+      "brandName":"Tata Salt",
+      "productTitle":"Iodized",
+      "productPrice": 19.80,
+      "productOldPrice": 28.40
+    }
+  ],
+  "blackFridayProducts": [
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product01.png"
+    },
+    {
+      "imageOfProduct":"assets/images/product02.png"
+    },
+    {
+      "offerInPercentage": "20",
+      "imageOfProduct":"assets/images/product03.png"
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product04.png"
+    },
+    {
+      "imageOfProduct":"assets/images/product01.png"
+    },
+    {
+      "offerInPercentage": "10",
+      "imageOfProduct":"assets/images/product01.png"
+    }
+  ],
+  "bankData":[
+    {
+      "bankImg":"assets/images/bank1.webp"
+    },
+    {
+      "bankImg":"assets/images/bank2.webp"
+    },
+    {
+      "bankImg":"assets/images/bank3.webp"
+    },
+    {
+      "bankImg":"assets/images/bank4.webp"
+    }
+  ],
+  "seasonProductData":[
+    {
+      "prdImg":"assets/images/must-haves-01.webp"
+    },
+    {
+      "prdImg":"assets/images/must-haves-02.webp"
+    },
+    {
+      "prdImg":"assets/images/must-haves-03.jpg"
+    },
+    {
+      "prdImg":"assets/images/must-haves-04.webp"
+    }
+  ],
+  "organicStoreBanner": "assets/images/organicstore.jpg",
+  "blackFridayBanner": "assets/images/blackFriday.jpg",
+  "festivalProducts":[
+    {
+      "offer":"10",
+      "productImage":"assets/images/friday-product01.png"
+    },
+    {
+      "productImage":"assets/images/friday-product02.png"
+    },
+    {
+      "offer":"10",
+      "productImage":"assets/images/friday-product03.png"
+    },
+    {
+      "productImage":"assets/images/friday-product04.png"
+    },
+    {
+      "productImage":"assets/images/friday-product05.png"
+    },
+    {
+      "offer":"10",
+      "productImage":"assets/images/friday-product01.png"
+    }
+  ],
+  "drinksProducts":[
+    {
+      "title":"Tea",
+      "offer":"10",
+      "image":"assets/images/tea.jpg"
+    },
+    {
+      "title":"Coffee",
+      "offer":"10",
+      "image":"assets/images/coffee.jpg"
+    },
+    {
+      "title":"Health Drinks",
+      "offer":"20",
+      "image":"assets/images/health-drink.jpg"
+    },
+    {
+      "title":"Juices & Cold Drinks",
+      "offer":"15",
+      "image":"assets/images/drinks.jpg"
+    }
+  ],
+  "houseHoldProducts":[
+    {
+      "title":"Bucket & Machine Wash",
+      "offer":"5",
+      "image":"assets/images/cleaning01.jpg"
+    },
+    {
+      "title":"Liquid Detergent",
+      "offer":"10",
+      "image":"assets/images/cleaning02.jpg"
+    },
+    {
+      "title":"Pre and Post Wash",
+      "offer":"20",
+      "image":"assets/images/cleaning03.jpg"
+    },
+    {
+      "title":"Kitchen Cleaning",
+      "offer":"15",
+      "image":"assets/images/cleaning04.jpg"
+    }
+  ],
+  "brandData":[
+    {
+      "image":"assets/images/All_Amul_480x360_27thJuly.jpg"
+    },
+    {
+      "image":"assets/images/All_Dettol_480x360_27thJuly.jpg"
+    },
+    {
+      "image":"assets/images/All_Cocacola_480x360_27thJuly.jpg"
+    },
+    {
+      "image":"assets/images/All_Loreal_480x360_27thJuly.jpg"
+    },
+    {
+      "image":"assets/images/All_Patanjali_480x360_27thJuly.jpg"
+    },
+    {
+      "image":"assets/images/All_Durex_480x360_27thJuly.jpg"
+    }
+  ],
+  "featuredRecipieData":[
+    {
+      "image":"assets/images/NNP3678-30july20.jpg"
+    },
+    {
+      "image":"assets/images/NNP3676-30july20.jpg"
+    },
+    {
+      "image":"assets/images/NNP3675-30july20.jpg"
+    },
+    {
+      "image":"assets/images/NNP3677-30july20.jpg"
+    }
+  ],
+  "thumbBoxProduct": [
+    {
+      "image":"assets/images/cat1.png",
+      "title":"Fruits"
+    },
+    {
+      "image":"assets/images/cat2.png",
+      "title":"vegetables"
+    },
+    {
+      "image":"assets/images/cat3.png",
+      "title":"grocery"
+    },
+    {
+      "image":"assets/images/cat4.png",
+      "title":"meat"
+    },
+    {
+      "image":"assets/images/cat5.png",
+      "title":"drink"
+    },
+    {
+      "image":"assets/images/cat6.png",
+      "title":"dessert"
+    }
+  ],
+  "categories":[
+    "Vegetables","Spices","Patato","Nuts","Fruit","Exotic fruits"
+  ],
+  "arrowImage":"assets/images/arrow.svg"
+}

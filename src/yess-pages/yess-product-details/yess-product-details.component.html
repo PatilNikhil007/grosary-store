@@ -1,0 +1,425 @@
+<section class="productRowBG cartPage">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-12 ">
+        <div class="breadcrumbs">
+          <a href="#">Home</a>
+          <a href="#">Grocery</a>
+          <a href="#">Atta Whole Wheat</a>
+          <a href="#">Aashirvaad Select Sharbati Whole Wheat Atta</a>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-12">
+        <div class="row productDetRow">
+          <div class="col-md-6 col-12 productSliderWrap">
+            <div id="productMainSlider" class="carousel slide mainProductSlide" data-ride="carousel">
+
+              <!-- The slideshow -->
+              <div class="carousel-inner veg countryFlag_ f_ind">
+                <div class="carousel-item active">
+                  <div class="itemHolder">
+                    <img src="assets/images/p_img_big.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="itemHolder">
+                    <img src="assets/images/p_img_big2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="itemHolder">
+                    <img src="assets/images/p_img_big.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="itemHolder">
+                    <img src="assets/images/p_img_big2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="itemHolder">
+                    <img src="assets/images/p_img_big.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#productMainSlider" data-slide-to="0" class="active">
+                  <img src="assets/images/p_img_big.jpg" alt="">
+                </li>
+                <li data-target="#productMainSlider" data-slide-to="1">
+                  <img src="assets/images/p_img_big2.jpg" alt="">
+                </li>
+                <li data-target="#productMainSlider" data-slide-to="2">
+                  <img src="assets/images/p_img_big.jpg" alt="">
+                </li>
+                <li data-target="#productMainSlider" data-slide-to="3">
+                  <img src="assets/images/p_img_big2.jpg" alt="">
+                </li>
+                <li data-target="#productMainSlider" data-slide-to="4">
+                  <img src="assets/images/p_img_big.jpg" alt="">
+                </li>
+              </ul>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#productMainSlider" data-slide="prev">
+                <img src="assets/images/ic_back.svg">
+              </a>
+              <a class="carousel-control-next" href="#productMainSlider" data-slide="next">
+                <img src="assets/images/ic_next.svg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 productInfoCol">
+
+            <div class="productInfoRightPanel">
+              <div class="mobileViewTitle">
+                <div class="offTag">{{products.selectedProductInfo.offer}}% <br>OFF</div>
+                <h3>{{products.selectedProductInfo.productName}}</h3>
+              </div>
+              <div class="p_price">&#8377; {{products.selectedProductInfo.price}} <del>&#8377; {{products.selectedProductInfo.oldPrice}}</del></div>
+              <div class="inclAllTax">(Inclusive of all taxes)</div>
+              <div class="prdIteamPrice">
+                <div class="prdPrice dropdown">
+                  <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                    5 kg : <strong>Rs.300</strong>
+                  </button>
+                  <div class="dropdown-menu">
+                    <ng-container *ngFor="let range of products.selectedProductInfo.offerPrices">
+                      <a class="dropdown-item" href="#">{{range.weight}} : <strong>Rs.{{range.price}}</strong></a>
+                    </ng-container>
+                  </div>
+                </div>
+                <div class="qtyItem">
+                  <span>Qty :</span>
+                  <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                </div>
+              </div>
+              <div class="checkAvailabil">
+                <label>Check Availability</label>
+                <div class="avF">
+                  <input type="text" name="" placeholder="Enter PIN">
+                  <button type="button">CHECK</button>
+                </div>
+              </div>
+              <div class="packSizesCol">
+                <h6>Pack Sizes</h6>
+                <div class="packRow selectPack">
+                  <div class="packSiz_Col">
+                    <div class="b_t">5 Kg</div>
+                    <div class="b_t2">Pouch</div>
+                  </div>
+                  <div class="packPrice_Col">
+                    <div class="price__span">
+                      <span class="new_pr">Rs 285</span>
+                      <span class="old_pr">MRP: <del>Rs 300</del></span>
+                      <span class="save_rs">SAVE Rs 15</span>
+                    </div>
+                  </div>
+                  <div class="icCheck_"></div>
+                </div>
+                <!--packRow-->
+                <div class="packRow">
+                  <div class="packSiz_Col">
+                    <div class="b_t">1 Kg</div>
+                    <div class="b_t2">Pouch</div>
+                  </div>
+                  <div class="packPrice_Col">
+                    <div class="price__span">
+                      <span class="new_pr">Rs 62</span>
+                    </div>
+                    <div class="stock__span">
+                      <span class="outOfStock_">Out Of Stock</span>
+                    </div>
+                  </div>
+                  <div class="icCheck_"></div>
+                </div>
+                <!--packRow-->
+              </div>
+              <div class="">
+                <button type="button" class="btn_1">Add To Cart <i class="arIc"></i></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 proDetCol__">
+        <div class="wrap_white_p50">
+          <h3>Product Details</h3>
+          <h5>{{products.selectedProductInfo.productName}}</h5>
+          <p>{{products.selectedProductInfo.description}}</p>
+
+          <hr>
+
+          <h5>Key Features</h5>
+          <ul>
+            <ng-container *ngFor="let feature of products.selectedProductInfo.keyfeature">
+              <li>{{feature}}</li>
+            </ng-container>
+          </ul>
+
+          <hr>
+
+
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <h5>Ingredients</h5>
+              <p>{{products.selectedProductInfo.ingredients}}</p>
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Unit</h5>
+              <p>{{products.selectedProductInfo.unit}}</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <h5>Shelf Life</h5>
+              <p>{{products.selectedProductInfo.shelfLife}}</p>
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Manufacturer Details</h5>
+              <p>{{products.selectedProductInfo.manufacturerDetails}}</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-md-12 col-12">
+              <h5>Seller</h5>
+              <p>{{products.selectedProductInfo.seller}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="moreLikeProductWrap">
+          <h3>More Like this</h3>
+          <div class="owl-carousel owl-theme">
+
+            <div class="item">
+              <div class="productBlank">
+                <div class="productItemImg"><img src="assets/images/ashirwadproduct.jpg"></div>
+                <div class="productItemInfo">
+                  <h2>Ashirvaad Select Atta</h2>
+                  <h3><strong>Rs.300</strong>
+                    <span class="oldprice">Rs. 900</span></h3>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>Rs.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qtyCartGroup">
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                    <div class="addtocartBTN">
+                      <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                          class="cart-item"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--item-->
+            <div class="item">
+              <div class="productBlank">
+                <span class="productOffer">10%<br>OFF</span>
+                <div class="productItemImg"><img src="assets/images/ashirwadproduct.jpg"></div>
+                <div class="productItemInfo">
+                  <h2>Ashirvaad Select Atta</h2>
+                  <h3><strong>Rs.300</strong>
+                    <span class="oldprice">Rs. 900</span></h3>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>Rs.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qtyCartGroup">
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                    <div class="addtocartBTN">
+                      <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                          class="cart-item"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--item-->
+            <div class="item">
+              <div class="productBlank">
+                <span class="productOffer">10%<br>OFF</span>
+                <div class="productItemImg"><img src="assets/images/ashirwadproduct.jpg"></div>
+                <div class="productItemInfo">
+                  <h2>Ashirvaad Select Atta</h2>
+                  <h3><strong>Rs.300</strong>
+                    <span class="oldprice">Rs. 900</span></h3>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>Rs.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qtyCartGroup">
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                    <div class="addtocartBTN">
+                      <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                          class="cart-item"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--item-->
+            <div class="item">
+              <div class="productBlank">
+                <div class="productItemImg"><img src="assets/images/ashirwadproduct.jpg"></div>
+                <div class="productItemInfo">
+                  <h2>Ashirvaad Select Atta</h2>
+                  <h3><strong>Rs.300</strong>
+                    <span class="oldprice">Rs. 900</span></h3>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>Rs.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qtyCartGroup">
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                    <div class="addtocartBTN">
+                      <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                          class="cart-item"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--item-->
+            <div class="item">
+              <div class="productBlank">
+                <div class="productItemImg"><img src="assets/images/ashirwadproduct.jpg"></div>
+                <div class="productItemInfo">
+                  <h2>Ashirvaad Select Atta</h2>
+                  <h3><strong>Rs.300</strong>
+                    <span class="oldprice">Rs. 900</span></h3>
+                  <div class="prdIteamPrice">
+                    <div class="prdPrice dropdown">
+                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        5 kg : <strong>Rs.300</strong>
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                        <a class="dropdown-item" href="#">5 kg : <strong>Rs.300</strong></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="qtyCartGroup">
+                    <div class="qtyItem">
+                      <span>Qty :</span>
+                      <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+                    </div>
+                    <div class="addtocartBTN">
+                      <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                          class="cart-item"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--item-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="footerGreen">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-12 lightGreen">
+        <h1>FREE SHIPPING ON </h1>
+        <h5>ORDER OVER Rs.599</h5>
+      </div>
+      <div class="col-lg-6 col-sm-6 col-12 darkGreen">
+        <h1>HAVE A QUESTIONS?</h1>
+        <h5>Toll Free : 1800 121 9377</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<ng-container *ngFor="let product of filteredProduct">
+  <div class="productItemBox">
+    <div class="productBlank">
+      <div class="productItemImg {{ product.category === 'nonVeg' ? 'nonVeg':'veg'}}" ><img [src]="product.image"></div>
+      <div class="productItemInfo">
+        <h2>{{ product.title }}</h2>
+        <h3><strong>&#8377;{{product.price}}</strong>
+          <span class="oldprice">&#8377; {{product.oldPrice}}</span></h3>
+        <div class="prdIteamPrice">
+          <div class="prdPrice dropdown">
+            <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+              1 kg : <strong>&#8377;300</strong>
+            </button>
+            <div class="dropdown-menu">
+              <ng-container *ngFor="let item of product.offerPrice">
+                <a class="dropdown-item" href="#">{{item.weight}} : <strong>&#8377;{{item.price}}</strong></a>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+        <div class="qtyCartGroup">
+          <div class="qtyItem">
+            <span>Qty :</span>
+            <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1">
+          </div>
+          <div class="addtocartBTN">
+            <button id="addtocart" class="addtocartAction addtocart">Add <i class="icCart_"></i> <span
+                class="cart-item"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container> -->

@@ -1,0 +1,332 @@
+<section>
+  <div id="heroSlider" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="captionHero">
+          <h3>Super</h3>
+          <h1>Grocery Sale</h1>
+          <p>The best online supermarket<br>
+            withe best discounts</p>
+          <a href="#" class="orderNowBlack">Order Now</a>
+        </div>
+        <img src="assets/images/slider-01.png">
+
+      </div>
+      <div class="carousel-item">
+        <div class="captionHero">
+          <h3>Super</h3>
+          <h1>Grocery Sale</h1>
+          <p>The best online supermarket<br>
+            withe best discounts</p>
+          <a href="#" class="orderNowBlack">Order Now</a>
+        </div>
+        <img src="assets/images/slider-01.png">
+      </div>
+      <div class="carousel-item">
+        <div class="captionHero">
+          <h3>Super</h3>
+          <h1>Grocery Sale</h1>
+          <p>The best online supermarket<br>
+            withe best discounts</p>
+          <a href="#" class="orderNowBlack">Order Now</a>
+        </div>
+        <img src="assets/images/slider-01.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="catSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="owl-carousel catThumbb">
+          <ng-container *ngFor="let product of products.thumbBoxProduct">
+            <div>
+              <div class="catThumbBox">
+                <a href="#">
+                  <div>
+                    <img src="{{product.image}}">
+                    <span>{{product.title}}</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row no-guttere">
+      <div class="col-lg-12 col-12 productFlex">
+        <div class="blackFridayBanner">
+          <a href="#">
+            <img [src]="products.blackFridayBanner">
+          </a>
+        </div>
+        <div class="festProductRow">
+          <ng-container *ngFor="let product of products.blackFridayProducts">
+            <div class="festiProduct">
+              <div class="festiProductHolder">
+                <div class="cartOverly">
+                  <button id="addtocart" class="addtocartAction addtocart addtoBTN"> add to cart <span
+                      class="cart-item"></span></button>
+                </div>
+                <span *ngIf="product.offerInPercentage"
+                  class="productOffer">{{product.offerInPercentage}}%<br>OFF</span>
+                <img src="{{product.imageOfProduct}}">
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>All</span> Categories</h1>
+        <div class="allPrdcat">
+          <ng-container *ngFor="let category of products.categories">
+            <a href="#">{{category}}</a>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+    <div class="row proListRow_">
+      <ng-container *ngFor="let product of products.productDetails">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="productBox">
+            <span class="productOffer uptoDis"><strong>{{product.offerInPercentage}}%</strong>OFF</span>
+            <div class="productImg"><img [src]="product.imageOfProduct"></div>
+            <div class="productInfoBTM">
+              <div class="brandName">{{product.brandName}}</div>
+              <div class="productTitle">{{product.productTitle}}</div>
+              <div class="productPrice">&#8377; {{product.productPrice}} <span class="productOldPrice">&#8377;
+                  {{product.productOldPrice}}</span></div>
+              <a href="#" class="productBuyNow">Buy Now <img [src]="products.arrowImage"></a>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<section class="bankOfferSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Bank</span> Offer</h1>
+      </div>
+      <ng-container *ngFor="let bankImage of products.bankData">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <a href="#" class="bankBox"><img src="{{bankImage.bankImg}}"></a>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<section class="bankOffereection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Season's</span> Must-haves</h1>
+      </div>
+      <ng-container *ngFor="let product of products.seasonProductData">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+          <a href="#" class="musthaveBox"><img src="{{product.prdImg}}"></a>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection organicSection">
+  <div class="container">
+    <div class="row no-guttere">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Fruits &</span> Vegetables Corner</h1>
+
+      </div>
+      <div class="col-lg-12 col-12 productFlex">
+        <div class="blackFridayBanner">
+          <a href="#">
+            <img [src]="products.organicStoreBanner">
+
+            <span class="bigtileCaption">The Organic Store</span>
+          </a>
+        </div>
+        <div class="festProductRow">
+
+          <ng-container *ngFor="let product of products.festivalProducts">
+            <div class="festiProduct">
+              <div class="festiProductHolder">
+                <div class="cartOverly">
+                  <button id="addtocart" class="addtocartAction addtocart addtoBTN"> add to cart <span
+                      class="cart-item"></span></button>
+                </div>
+                <span *ngIf="product.offerInPercentage"
+                  class="productOffer">{{product.offerInPercentage}}%<br>OFF</span>
+                <img src="{{product.productImage}}">
+              </div>
+            </div>
+          </ng-container>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Drinks</span> & Beverages</h1>
+
+      </div>
+    </div>
+    <div class="row proListRow_">
+
+      <ng-container *ngFor="let product of products.drinksProducts">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="productBox">
+            <span class="productOffer uptoDis"><strong>{{product.offer}}%</strong>OFF</span>
+            <div class="productImg"><img src="{{product.image}}"></div>
+            <div class="productInfoBTM text-center">
+              <div class="productTitle">{{product.title}}</div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Cleaning
+          </span> & Household</h1>
+      </div>
+    </div>
+    <div class="row proListRow_">
+
+      <ng-container *ngFor="let product of products.houseHoldProducts">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="productBox">
+            <span class="productOffer uptoDis"><strong>{{product.offer}}%</strong>OFF</span>
+            <div class="productImg"><img src="{{product.image}}"></div>
+            <div class="productInfoBTM text-center">
+              <div class="productTitle">{{product.title}}</div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Brand</span> Store</h1>
+      </div>
+      <div class="col-lg-12 col-12 ">
+
+        <ul class="brandLogos">
+          <ng-container *ngFor="let brand of products.brandData">
+            <li><a href="#"><img src="{{brand.image}}"></a></li>
+          </ng-container>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="festivalSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 catAllHDR">
+        <h1 class="sectionTitle"><span>Featured </span> Recipes</h1>
+      </div>
+      <div class="col-lg-12 col-12 ">
+        <div class="owl-carousel featuredRecipes">
+          <ng-container *ngFor="let recipie of products.featuredRecipieData">
+            <div> <img src="{{recipie.image}}"></div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonialSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 col-12">
+        <h1 class="sectionTitle02">Testimonial</h1>
+
+      </div>
+      <div class="col-lg-6 col-md-6 offset-md-3 offset-lg-3 col-12">
+        <div class="owl-carousel owl-theme">
+          <div>
+
+            <div class="testProfile"><img src="assets/images/testiprofile.png"></div>
+            <div class="testBox">
+              <h4>Firet Testimonial</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <div class="testRating">
+                <i class="fas fa-star yellowstar"></i>
+                <i class="fas fa-star yellowstar"></i>
+                <i class="fas fa-star yellowstar"></i>
+                <i class="fas fa-star yellowstar"></i>
+                <i class="fas fa-star greystar"></i>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="col-lg-12 col-sm-12 col-12">
+
+        <div class="banner02">
+          <img src="assets/images/banner02.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footerGreen">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 col-12 lightGreen">
+        <h1>FREE SHIPPING ON </h1>
+        <h5>ORDER OVER &#8377;.599</h5>
+      </div>
+      <div class="col-lg-6 col-sm-6 col-12 darkGreen">
+        <h1>HAVE A QUESTIONS?</h1>
+        <h5>Toll Free : 1800 121 9377</h5>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,306 @@
+{
+  "selectedProductInfo": {
+    "offer": "13",
+    "productName": "Aashirvaad Select Sharbati Whole Wheat Atta",
+    "price": "300",
+    "oldPrice": "900",
+    "offerPrices": [
+      {
+        "weight": "5 kg",
+        "price": "1000"
+      },
+      {
+        "weight": "4 kg",
+        "price": "900"
+      }
+    ],
+    "description": "Aashirvaad Select Sharbati Whole Wheat Atta is ground with utmost precision, using the traditional chakki-grinding process and the choicest of grains to give you fresh and 100% pure wheat flour. Enriched with wholesome vitamins, it can be used to prepare the softest of rotis. The use of superior quality grains makes Aashirvaad Whole Wheat Atta a healthy and wholesome choice. Makes soft and melt-in-the-mouth rotis. Pure wheat grain, without any maida addition, is used in the preparation of the flour. Provides fibre content to the body. Contains nutrients that keep you healthy and fit.",
+    "keyfeature": [
+      "Made from the choicest whole wheat",
+      "Fresh and pure wholesome flour",
+      "Grounded carefully to perfection",
+      "Rich in essential vitamins and extra fibre",
+      "Makes soft and fluffy rotis with a whole lot of health",
+      "Can also be used to make a variety of other sweets and savouries"
+    ],
+    "ingredients": "Whole Wheat",
+    "unit": "5 kg",
+    "shelfLife": "3 months",
+    "manufacturerDetails": "ITC Limited, 37, J.L. Nehru Road, Kolkata- 700071",
+    "seller": "ABC Super Retail Pvt Ltd"
+  },
+  "similarProducts": [
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"nonVeg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"nonVeg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"nonVeg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"veg"
+    },
+    {
+      "image": "assets/images/ashirwadproduct.jpg",
+      "title": "Ashirvaad Select Atta",
+      "price": "300",
+      "oldPrice": "350",
+      "offerPrice": [
+        {
+          "weight": "5 kg",
+          "price": "1000"
+        },
+        {
+          "weight": "4 kg",
+          "price": "900"
+        }
+      ],
+      "category":"nonVeg"
+    }
+  ]
+}

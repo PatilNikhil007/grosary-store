@@ -1,0 +1,38 @@
+{
+  "selectedProducts":[
+    {
+      "image":"assets/images/cart_1.jpg",
+      "brandName":"Aashirvaad",
+      "productName":"Aashirvaad Select Sharbati Whole Wheat Atta",
+      "price":"300",
+      "oldPrice":"900",
+      "offerPrices":[
+      {
+        "weight": "5 kg",
+        "price": "1000"
+      },
+      {
+        "weight": "4 kg",
+        "price": "900"
+      }
+    ]
+    },
+    {
+      "image":"assets/images/cart_1.jpg",
+      "brandName":"Aashirvaad",
+      "productName":"Aashirvaad Select Sharbati Whole Wheat Atta",
+      "price":"300",
+      "oldPrice":"900",
+      "offerPrices":[
+      {
+        "weight": "5 kg",
+        "price": "1000"
+      },
+      {
+        "weight": "4 kg",
+        "price": "900"
+      }
+    ]
+    }
+  ]
+}

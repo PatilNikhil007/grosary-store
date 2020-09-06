@@ -24,9 +24,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/pull-push.css",
+              "src/assets/css/Menustyle.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/fontawesome-all.css",
+              "src/assets/css/circular-std.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/modernizr.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/fontawesome.js",
+              "src/assets/js/owl.carousel.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.menu-aim.js",
+              "src/assets/js/Menumain.js",
+              "src/assets/js/sticky_script.js"
+            ]
           },
           "configurations": {
             "production": {
